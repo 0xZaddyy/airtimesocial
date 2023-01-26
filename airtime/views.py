@@ -27,7 +27,7 @@ def talker(phone_number, amount):
 @api_view(['POST'])
 def reacharge(request):
     data = request.data
-    phone_number = data['phone_number']
+    phone_number = data['mobile']
     amount = data['amount']
     
     try:
